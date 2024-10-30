@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             var copter = new Quadcopter();
-            //copter.GetInfo();
+            Console.WriteLine( copter.GetInfo());
             Console.WriteLine(String.Join(',',copter.GetComponents()));
             copter.Charge();
 

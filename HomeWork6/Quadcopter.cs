@@ -21,7 +21,7 @@
 
         public string GetInfo()
         {
-            throw new NotImplementedException();
+            return "Quadcopter GetInfo().";
         }
     }
 }
